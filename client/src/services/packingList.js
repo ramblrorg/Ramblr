@@ -4,7 +4,7 @@
 // "packing-items" naming in the issue description.
 
 const BASE_URL = import.meta.env.PROD
-  ? "https://ramblr-r5x1.onrender.com"
+  ? "https://ramblr-r5x1.onrender.com/api"
   : "/api";
 
 const parseJsonSafe = async (res) => {

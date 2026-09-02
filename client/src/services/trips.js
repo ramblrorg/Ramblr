@@ -2,7 +2,7 @@
 // No auth yet -- every request resolves against the current seeded user.
 
 const BASE_URL = import.meta.env.PROD
-  ? "https://ramblr-r5x1.onrender.com/trips"
+  ? "https://ramblr-r5x1.onrender.com/api/trips"
   : "/api/trips";
 
 const parseJsonSafe = async (res) => {
